@@ -1,0 +1,26 @@
+http://localhost:8080/readTimerangeData?startTimeStamp=1502430442834&endTimeStamp=1502430573808
+[{"timerange":1502430513409,"weight":155},{"timerange":1502430518564,"weight":156},{"timerange":1502430523622,"weight":157},{"timerange":1502430528646,"weight":158},{"timerange":1502430533655,"weight":159},{"timerange":1502430538674,"weight":160},{"timerange":1502430543686,"weight":161},{"timerange":1502430548695,"weight":162},{"timerange":1502430553714,"weight":163},{"timerange":1502430558728,"weight":164},{"timerange":1502430563747,"weight":165},{"timerange":1502430568766,"weight":166}]
+
+
+
+
+http://localhost:8080/readdata
+
+[{"timerange":1502423766926,"weight":150},{"timerange":1502423855838,"weight":151},{"timerange":1502425086123,"weight":156},{"timerange":1502425091278,"weight":155},{"timerange":1502425096306,"weight":154},{"timerange":1502425101318,"weight":153},{"timerange":1502425106333,"weight":152},{"timerange":1502425111346,"weight":151},{"timerange":1502425200517,"weight":161},{"timerange":1502425206671,"weight":162},{"timerange":1502425211683,"weight":163},{"timerange":1502425216698,"weight":164},{"timerange":1502425221719,"weight":165},{"timerange":1502425226736,"weight":166},{"timerange":1502425231768,"weight":167},{"timerange":1502425236785,"weight":168},{"timerange":1502425241796,"weight":169},{"timerange":1502425246812,"weight":170},{"timerange":1502425251817,"weight":171},{"timerange":1502425256831,"weight":172},{"timerange":1502425261872,"weight":173},{"timerange":1502425266887,"weight":174},{"timerange":1502425271901,"weight":175},{"timerange":1502425480234,"weight":156},{"timerange":1502425485385,"weight":155},{"timerange":1502425490395,"weight":154},{"timerange":1502425495409,"weight":153},{"timerange":1502425500416,"weight":152},{"timerange":1502425505427,"weight":151},{"timerange":1502425510441,"weight":-90},{"timerange":1502425648701,"weight":169},{"timerange":1502425653861,"weight":170},{"timerange":1502425658872,"weight":171},{"timerange":1502425663900,"weight":172},{"timerange":1502430442834,"weight":150},{"timerange":1502430513409,"weight":155},{"timerange":1502430518564,"weight":156},{"timerange":1502430523622,"weight":157},{"timerange":1502430528646,"weight":158},{"timerange":1502430533655,"weight":159},{"timerange":1502430538674,"weight":160},{"timerange":1502430543686,"weight":161},{"timerange":1502430548695,"weight":162},{"timerange":1502430553714,"weight":163},{"timerange":1502430558728,"weight":164},{"timerange":1502430563747,"weight":165},{"timerange":1502430568766,"weight":166},{"timerange":1502430573808,"weight":167},{"timerange":1502430578831,"weight":168},{"timerange":1502430583854,"weight":169},{"timerange":1502430588872,"weight":170},{"timerange":1502430593882,"weight":171},{"timerange":1502430598894,"weight":172},{"timerange":1502430603918,"weight":173},{"timerange":1502430608937,"weight":174}]
+
+
+
+http://localhost:8080/readalert
+[{"timerange":1502430568766,"status":"Over Weight"},{"timerange":1502430573808,"status":"Over Weight"},
+{"timerange":1502430578831,"status":"Over Weight"},{"timerange":1502430583854,"status":"Over Weight"},
+{"timerange":1502430588872,"status":"Over Weight"},{"timerange":1502430593882,"status":"Over Weight"},
+{"timerange":1502430598894,"status":"Over Weight"},{"timerange":1502430603918,"status":"Over Weight"},
+{"timerange":1502430608937,"status":"Over Weight"}]
+
+
+
+
+
+http://localhost:8080/readTimerangeAlert?startTimeStamp=1502430568766&endTimeStamp=1502430578831
+[{"timerange":1502430573808,"status":"Over Weight"}]
+
